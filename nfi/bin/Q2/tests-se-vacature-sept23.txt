@@ -1,0 +1,104 @@
+--- 1 Telefoon
+Bij het NFI hebben de toestelnummers 666 en 999 een speciale betekenis. 
+Schrijf daarom een programma die naar deze nummers zoekt in de invoer. 
+De invoer is een lijst met getallen, een per regel. 
+Schrijf elk getal naar de uitvoer en stop zodra je de getallen 666 en 999 achter elkaar krijgt.
+ 
+Voorbeeld:
+Invoer:
+98
+6
+666
+999
+7
+ 
+Uitvoer:
+98
+6
+666
+999
+ 
+ 
+--- 2 Heptadecimaal
+Iedereen weet dat getallen in base 17 erg belangrijk zijn binnen het forensisch domein ;-) 
+Nummers in base 17 worden uitgedrukt met 17 karakters, de cijfers 0 tot en met 9 met hun gebruikelijke waarde en de karakters a tot en met g met de waarde 10 tot en met 16. 
+Het getal 0bVoor hepta-decimaal is dan gelijk aan 190, 021 is gelijk aan 35.
+Schrijf een programma die hepta-decimale getallen omzet naar decimale getallen.
+ 
+Invoer:
+De invoer bevat meerdere tests. Iedere test bevat een regel met een hepta-decimaal getal. 
+Voorloopnullen kunnen worden genegeerd. 
+De tests worden afgesloten door een regel met een x.
+ 
+Uitvoer:
+Schrijf voor elke test wordt de overeenkomstige decimale waarde.
+ 
+Voorbeeld:
+Invoer:
+0b3
+21
+x
+ 
+Uitvoer:
+190
+35
+ 
+ 
+--- 3 Afdruk
+Bij het afdrukken van het motto van het NFI is er iets fout gegaan. 
+De letters zijn verticaal afgedrukt in plaats van horizontaal. 
+Schrijf een programma om dit te herstellen.
+ 
+Narcinns
+enehtfht
+ddnIueee
+essnuit.
+rFisttb.
+lostIee.
+ 
+Invoer:
+De invoer bevat meerdere test. Iedere test heeft 2 regels. 
+De eerste regel bevat een getal die het aantal kolommen representeerd. 
+De tweede regel bevat de tekst. 
+De tests worden afgesloten door regel met een enkele 0.
+ 
+Uitvoer:
+Druk na elke test een regel met de vertaalde boodschap.
+ 
+Voorbeeld:
+Invoer:
+8
+NarcinnsenehtfhtddnIueeeessnuit.rFisttb.lostIee.
+0
+ 
+Uitvoer:
+NederlandsForensischInstituutInfeitenhetbeste...
+ 
+ 
+--- 4 Weird computer
+Tijdens een inval is een nogal bijzondere computer aangetroffen. 
+Na langdurig onderzoek heeft men ontdekt dat deze werkt op basis van een base -2 talstelsel. 
+Zeer vooruitstrevend want hiermee voorkom je vervelende problemen met het gebruik van een sign-bit. 
+De bits in een byte hebben hierbij de volgende waarden (van rechts naar links): 1, -2, 4, -8, 16, -32, etc...
+Om de onderzoekers te ondersteunen schrijf je een programma die decimale getallen converteert naar base -2.
+ 
+Invoer:
+Een decimaal getal.
+ 
+Uitvoer:
+Het getal geconverteerd naar base -2.
+ 
+Voorbeeld:
+Invoer:
+-13
+ 
+Uitvoer:
+110111
+
+
+
+Aanwijzigen voor het maken van de tests:
+- Gebruik Java
+- Gebruik standard-io voor input/output
+- De invoer die gebruikt wordt om de opgave te testen is valide
+- Gebruik enkel libraries voor input/output
