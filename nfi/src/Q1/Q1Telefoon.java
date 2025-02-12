@@ -23,7 +23,7 @@ public class Q1Telefoon {
         	}
         }
         catch (Exception e) {
-        	System.out.println("Input error");
+        	System.out.println("Input error: " + e);
         }
     }
 }

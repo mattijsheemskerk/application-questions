@@ -25,9 +25,9 @@ public class Q3Afdruk {
         			int numberOfRows = tokens.length / numberOfColumns;
 
         			for (int i = 0; i < tokens.length; i++) {
-        				int indexPerColumn = Math.abs((i) / numberOfColumns);
+        				int indexPerColumn = Math.abs(i / numberOfColumns);
         				int rowNumber = (i % numberOfColumns);
-        				//System.out.println(i + ": columnNumber=" + columnNumber + ", rowNumber=" + rowNumber + ", index=" + (columnNumber + (rowNumber * numberOfRows)));
+        				//System.out.println(i + ": indexPerColumn=" + indexPerColumn + ", rowNumber=" + rowNumber + ", index=" + (indexPerColumn + (rowNumber * numberOfRows)));
         				result[indexPerColumn + (rowNumber * numberOfRows)] = tokens[i];
         			}
     		        System.out.println(String.valueOf(result));
@@ -37,7 +37,7 @@ public class Q3Afdruk {
     		bufferedReader.close();
         }
         catch (Exception e) {
-        	System.out.println("Input error");
+        	System.out.println("Input error: " + e);
         }
     }
 }

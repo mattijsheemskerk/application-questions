@@ -30,7 +30,7 @@ public class Q2Heptadecimaal {
     		bufferedReader.close();
         }
         catch (Exception e) {
-        	System.out.println("Input error");
+        	System.out.println("Input error: " + e);
         }
     }
 }
