@@ -19,7 +19,6 @@ public class Q4WeirdComputer {
                     remainder += 2;
                     number++;
                 }
-                //System.out.println("BottomWhile: number=" + String.valueOf((int)number) + ", reminder=" + remainder);
                 digits.add(0, remainder);
             }
         	digits.forEach(System.out::print);

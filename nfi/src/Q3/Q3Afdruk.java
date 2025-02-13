@@ -25,10 +25,10 @@ public class Q3Afdruk {
         			int numberOfRows = tokens.length / numberOfColumns;
 
         			for (int i = 0; i < tokens.length; i++) {
-        				int indexPerColumn = Math.abs(i / numberOfColumns);
-        				int rowNumber = (i % numberOfColumns);
+        				int rowNumber = Math.abs(i / numberOfColumns);
+        				int indexPerColumn = (i % numberOfColumns);
         				//System.out.println(i + ": indexPerColumn=" + indexPerColumn + ", rowNumber=" + rowNumber + ", index=" + (indexPerColumn + (rowNumber * numberOfRows)));
-        				result[indexPerColumn + (rowNumber * numberOfRows)] = tokens[i];
+        				result[rowNumber + (indexPerColumn * numberOfRows)] = tokens[i];
         			}
     		        System.out.println(String.valueOf(result));
         		}
